@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question quiz</title>
+    <link rel="stylesheet" href="../css/question.css">
+    <script src="/js/question.js" defer></script>
+</head>
+<body>
+    <header>
+        <hgroup> 
+            <h1>MYTHOLOGY QUIZ</h1>
+            <h2>PREGUNTAS</h2>
+            <h3 id="pregunta"></h3>
+        </hgroup>
+    </header>
+    <div  id="boton_padre">
+    <div class="hijo">
+        <button class="boton" onclick="oprimir(0)"><span id="respuesta0"></span></button>
+    </div>
+    <div class="hijo">
+        <button class="boton" onclick="oprimir(1)"><span id="respuesta1"></span></button>
+    </div>
+    <div class="hijo">
+        <button class="boton" onclick="oprimir(2)"><span id="respuesta2"></span></button>
+    </div>
+    <div class="hijo">
+        <button class="boton" onclick="oprimir(3)"><span id="respuesta3"></span></button>
+    </div>
+    <div id="mensaje" class="oculto"></div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'fantasy'; 
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow:
+    1px 1px 2px rgb(255, 94, 147),
+    0 0 1em rgb(255, 155, 188),
+    0 0 0.2em rgb(248, 120, 162);   
+}
+
+
+
+  a{
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow:
+    1px 1px 2px rgb(132, 0, 129),
+    0 0 1em rgb(79, 0, 149),
+    0 0 0.2em rgb(95, 0, 168);   
+  }
+
+#navegador_padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(201, 24, 142, 0.226);
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+  bottom: 40px;
+  width: 300px;
+}
+
+#contenedor_grafica {
+  width: 350px;
+  height: 300px;
+  margin: auto;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(68, 1, 119);
+  padding-bottom: 50px;
+  padding-top: 20px;
+  position: relative;
+  bottom: 40px;
+}

@@ -1,0 +1,84 @@
+body{
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+hgroup{
+    text-align: center;
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'fantasy'; 
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow: 
+    1px 1px 2px rgb(255, 94, 147),
+    0 0 1em rgb(255, 155, 188),
+    0 0 0.2em rgb(248, 120, 162);   
+}
+
+
+.boton {
+    background: rgba(201, 24, 142, 0.521);
+    margin: 20px;
+    margin-bottom: 2px;
+    border-color: bisque;
+}
+
+button #siguiente, #respuesta0, #respuesta1, #respuesta2, #respuesta3 {
+    font-size:15px;
+    color: rgb(255, 211, 247);
+    border:0px;
+    width:80px;
+    height:19px;
+    text-align: center;
+    font-family: 'fantasy';
+}
+
+button:hover {
+    background: rgba(84, 215, 255, 0.705);
+    cursor: pointer;
+}
+
+#boton_padre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(201, 24, 142, 0.226);
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 40px;
+    width: 300px;
+}
+
+.hijo {
+    inline-size: none;
+}
+
+.respuesta_correcta {
+    text-align: center;
+    font-family: 'fantasy'; 
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow: 
+    1px 1px 2px rgb(94, 255, 118),
+    0 0 1em rgb(16, 246, 89),
+    0 0 0.2em rgb(137, 248, 120);
+}
+
+.respuesta_incorrecta {
+    text-align: center;
+    font-family: 'fantasy'; 
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow: 
+    1px 1px 2px rgb(255, 94, 94),
+    0 0 1em rgb(255, 155, 155),
+    0 0 0.2em rgb(248, 120, 120);
+}
+
+.oculto {
+    display: none;
+}
